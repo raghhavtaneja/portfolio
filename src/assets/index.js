@@ -27,10 +27,6 @@ import aws from "./tech/aws.png";
 //company
 import hexaware from "./company/hexaware.svg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 // projects
 import airbnbclone from "./airbnb-clone.png";
 import chatgame from "./chat-game.png";
@@ -57,9 +53,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   hexaware,
   cpp,
   java,
