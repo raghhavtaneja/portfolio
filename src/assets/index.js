@@ -30,6 +30,7 @@ import hexaware from "./company/hexaware.svg";
 // projects
 import airbnbclone from "./airbnb-clone.png";
 import chatgame from "./chat-game.png";
+import newsapp from "./newsapp.png";
 
 export {
   logo,
@@ -58,5 +59,6 @@ export {
   java,
   airbnbclone,
   chatgame,
-  aws
+  aws,
+  newsapp
 };

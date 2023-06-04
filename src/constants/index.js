@@ -14,7 +14,8 @@ import {
     java,
     airbnbclone,
     chatgame,
-    aws
+    aws,
+    newsapp
 } from "../assets";
 
 export const navLinks = [
@@ -135,7 +136,8 @@ const projects = [
             },
         ],
         image: airbnbclone,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/raghhavtaneja/airbnb-clone",
+        live_link:""
     },
     {
         name: "Doodle Drawing game",
@@ -160,29 +162,30 @@ const projects = [
             },
         ],
         image: chatgame,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/raghhavtaneja/doodle-multiplayer-drawing-game",
+        live_link:"https://doodle-draw-game.herokuapp.com/"
     },
-    // {
-    //     name: "Trip Guide",
-    //     description:
-    //         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //     tags: [
-    //         {
-    //             name: "nextjs",
-    //             color: "blue-text-gradient",
-    //         },
-    //         {
-    //             name: "supabase",
-    //             color: "green-text-gradient",
-    //         },
-    //         {
-    //             name: "css",
-    //             color: "pink-text-gradient",
-    //         },
-    //     ],
-    //     image: tripguide,
-    //     source_code_link: "https://github.com/",
-    // },
+    {
+        name: "Tiny News Android App",
+        description:
+            "A dynamic news feed app that features lates news from around the world, fetches data using the Guardian News API.",
+        tags: [
+            {
+                name: "java",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Android Studio",
+                color: "green-text-gradient",
+            },
+            {
+                name: "rest-api",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: newsapp,
+        source_code_link: "https://github.com/raghhavtaneja/TinyNews",
+    },
 ];
 
 export { technologies, experiences, projects };
