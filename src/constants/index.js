@@ -15,7 +15,9 @@ import {
     airbnbclone,
     chatgame,
     aws,
-    newsapp
+    newsapp,
+    apl,
+    nextjslogo
 } from "../assets";
 
 export const navLinks = [
@@ -53,6 +55,10 @@ const technologies = [
     {
         name: "React JS",
         icon: reactjs,
+    },
+    {
+        name: "NextJS",
+        icon: nextjslogo,
     },
     {
         name: "Redux Toolkit",
@@ -96,10 +102,12 @@ const experiences = [
         iconBg: "#ffffff",
         date: "Jun 2022 - Present",
         points: [
-            "Developing and maintaining web applications using React.js, Redux, TypeScript other related technologies.",
-            "Building various reusable React components for Organisation's internal React library.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed and maintained multiple web applications using React.js, Redux, TypeScript/JavaScript and other related technologies.",
+            "Leveraged generative AI (Open AI) to automate call transcript summarization from Amazon Connect, enhancing agent productivity; implemented a seamless interface allowing direct review and submission of summaries to ServiceNow.",
+            "Built various reusable React components for Organisation's internal React library.",
+            "Implemented complete UI design for a client project that allows users to interact with thier private data and pdf.",
+            "Leading Materials Engineering Solutions Company: Maintained application that helps in troubleshooting semiconductor manufacturing machinery with the help of Machine learning algorithms at the backend.",
+            "Participated in code reviews and providing constructive feedback to other developers.",
         ],
     },
 ];
@@ -137,7 +145,7 @@ const projects = [
         ],
         image: airbnbclone,
         source_code_link: "https://github.com/raghhavtaneja/airbnb-clone",
-        live_link:""
+        live_link:"https://rent-your-property.vercel.app/"
     },
     {
         name: "Doodle Drawing game",
@@ -185,6 +193,31 @@ const projects = [
         ],
         image: newsapp,
         source_code_link: "https://github.com/raghhavtaneja/TinyNews",
+    },
+    {
+        name: "APL",
+        description:
+            "APL is a Noida based company that manufactures and sells engine oils and industrial lubricants.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "emailjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwindcss",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: apl,
+        live_link:"https://www.americanpetrolube.com/",
     },
 ];
 

@@ -23,6 +23,7 @@ import threejs from "./tech/threejs.svg";
 import cpp from "./tech/cpp.png";
 import java from "./tech/java.svg";
 import aws from "./tech/aws.png";
+import nextjslogo from "./next-js-logo.png";
 
 //company
 import hexaware from "./company/hexaware.svg";
@@ -31,6 +32,7 @@ import hexaware from "./company/hexaware.svg";
 import airbnbclone from "./airbnb-clone.png";
 import chatgame from "./chat-game.png";
 import newsapp from "./newsapp.png";
+import apl from "./apl.png";
 
 export {
   logo,
@@ -60,5 +62,7 @@ export {
   airbnbclone,
   chatgame,
   aws,
-  newsapp
+  newsapp,
+  apl,
+  nextjslogo
 };
