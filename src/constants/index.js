@@ -37,60 +37,99 @@ export const navLinks = [
 
 const technologies = [
     {
-        name: "HTML 5",
+        name: "HTML",
         icon: html,
+        category: "frontend"
     },
     {
-        name: "CSS 3",
+        name: "CSS",
         icon: css,
+        category: "frontend"
     },
     {
         name: "JavaScript",
         icon: javascript,
+        category: "frontend"
     },
     {
         name: "TypeScript",
         icon: typescript,
+        category: "frontend"
     },
     {
         name: "React JS",
         icon: reactjs,
+        category: "frontend"
     },
     {
         name: "NextJS",
         icon: nextjslogo,
+        category: "frontend"
     },
     {
-        name: "Redux Toolkit",
+        name: "Redux",
         icon: redux,
+        category: "frontend"
     },
     {
         name: "Tailwind CSS",
         icon: tailwind,
+        category: "frontend"
     },
     {
         name: "Node JS",
         icon: nodejs,
+        category: "backend"
+    },
+    {
+        name: "Express JS",
+        icon: nodejs,
+        category: "backend"
+    },
+    {
+        name: "Next Auth",
+        icon: nodejs,
+        category: "backend"
     },
     {
         name: "MongoDB",
         icon: mongodb,
+        category: "db"
+    },
+    {
+        name: "MySQL",
+        icon: mongodb,
+        category: "db"
     },
     {
         name: "git",
         icon: git,
+        category: "devops"
     },
     {
         name: "C++",
         icon: cpp,
+        category: "languages"
     },
     {
         name: "Java",
         icon: java,
+        category: "languages"
+    },
+    {
+        name: "Python",
+        icon: java,
+        category: "languages"
     },
     {
         name: "AWS",
         icon: aws,
+        category: "devops"
+    },
+    {
+        name: "Docker",
+        icon: aws,
+        category: "devops"
     }
 ];
 
@@ -145,7 +184,7 @@ const projects = [
         ],
         image: airbnbclone,
         source_code_link: "https://github.com/raghhavtaneja/airbnb-clone",
-        live_link:"https://rent-your-property.vercel.app/"
+        live_link: "https://rent-your-property.vercel.app/"
     },
     {
         name: "Doodle Drawing game",
@@ -171,7 +210,7 @@ const projects = [
         ],
         image: chatgame,
         source_code_link: "https://github.com/raghhavtaneja/doodle-multiplayer-drawing-game",
-        live_link:"https://doodle-draw-game.herokuapp.com/"
+        live_link: "https://doodle-two.vercel.app/"
     },
     {
         name: "Tiny News Android App",
@@ -217,7 +256,7 @@ const projects = [
             },
         ],
         image: apl,
-        live_link:"https://www.americanpetrolube.com/",
+        live_link: "https://www.americanpetrolube.com/",
     },
 ];
 

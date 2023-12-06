@@ -71,7 +71,7 @@ const ProjectCard = ({
 
 const Projects = () => {
   return (
-    <div id="projects" className="p-10">
+    <div id="projects" className="pt-24 pl-10 pr-10">
       <div>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </div>

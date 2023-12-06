@@ -56,7 +56,7 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
   return (
-    <div id="experience" className="p-10">
+    <div id="experience" className="pt-24 pl-10 pr-10">
       <div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText}`}>Work Experience.</h2>
 

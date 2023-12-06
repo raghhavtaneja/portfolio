@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 
-import { styles } from "../../styles";
-import { navLinks } from "../../constants";
 import { logo, menu, close } from "../../assets";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
@@ -13,7 +11,7 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="sm:px-16 px-4 w-full flex items-center py-6 fixed top-0 z-20 bg-primary mb-10">
+    <nav className="sm:px-16 px-4 w-full flex items-center py-6 fixed top-0 z-20 bg-primary">
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <div className="flex flex-col justify-center items-center">
           <Link
@@ -94,7 +92,22 @@ const Navbar = () => {
                   </p>
                 </Link>
                 <Link
-                  to="/projects"
+                  to="skills"
+                  onClick={() => {
+                    setActive("skills");
+                    setToggle(!toggle);
+                  }}
+                >
+                  <p
+                    className={`${
+                      active === "skills" ? "text-white" : "text-secondary"
+                    } text-[16px] cursor-pointer hover:text-white`}
+                  >
+                    Skills
+                  </p>
+                </Link>
+                <Link
+                  to="projects"
                   onClick={() => {
                     setActive("projects");
                     setToggle(!toggle);
@@ -109,7 +122,7 @@ const Navbar = () => {
                   </p>
                 </Link>
                 <Link
-                  to="/experience"
+                  to="experience"
                   onClick={() => {
                     setActive("experience");
                     setToggle(!toggle);
