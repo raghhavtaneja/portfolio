@@ -15,26 +15,26 @@ const Skills = () => {
         </p>
       </div>
 
-      <div className="mt-10 flex gap-7 w-full">
-        <div className="bg-gray-900 gap-5 p-5 rounded-md flex items-center">
-          <p>Frontend</p>
-          <div className="flex flex-wrap gap-5">
-            {technologies
-              .filter((technology) => technology.category === "frontend")
-              .map((technology, index) => (
-                <div key={index} className="flex">
-                  <h2 className="font-bold border-[0.5px] border-dotted	gap-2 p-1 pl-2 pr-2 rounded-md border-green-700">
-                    {technology.name}
-                  </h2>
-                </div>
-              ))}
+      <div className="flex gap-2 flex-wrap justify-center">
+        <div className="mt-10 flex gap-7 w-80">
+          <div className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-center">
+            <p>Frontend</p>
+            <div className="flex flex-wrap gap-5">
+              {technologies
+                .filter((technology) => technology.category === "frontend")
+                .map((technology, index) => (
+                  <div key={index} className="flex">
+                    <h2 className="font-bold border-[0.5px] border-dotted	gap-2 p-1 pl-2 pr-2 rounded-md border-green-700">
+                      {technology.name}
+                    </h2>
+                  </div>
+                ))}
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className="flex gap-2 flex-wrap">
-        <div className="mt-10 flex gap-7">
-          <div className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-center justify-start">
+        <div className="mt-10 flex gap-7 w-80">
+          <div className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-start justify-start">
             <p>Backend</p>
             <div className="flex flex-wrap gap-5">
               {technologies
@@ -50,9 +50,9 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="mt-10 flex gap-7">
-          <div className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-center justify-start">
-            <p>Language</p>
+        <div className="mt-10 flex w-80">
+          <div className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-start justify-start">
+            <p>Languages</p>
             <div className="flex flex-wrap gap-5">
               {technologies
                 .filter((technology) => technology.category === "languages")
@@ -67,8 +67,8 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="mt-10 flex gap-7">
-          <div className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-center">
+        <div className="mt-10 flex w-80">
+          <div className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-start">
             <p>Database</p>
             <div className="flex flex-wrap gap-5">
               {technologies
@@ -84,8 +84,8 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="mt-10 flex gap-7">
-          <div className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-center">
+        <div className="mt-10 flex gap-7 w-80">
+          <div className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-start">
             <p>Devops</p>
             <div className="flex flex-wrap gap-5">
               {technologies

@@ -24,7 +24,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
-            className="text-[#dfd9ff] font-medium lg:text-[20px] sm:text-[16px] xs:text-[10px] text-[10px] lg:leading-[30px] w-[50%]"
+            className="text-[#dfd9ff] font-medium lg:text-[20px] sm:text-[16px] xs:text-[14px] text-[14px] lg:leading-[30px] w-[50%]"
           >
             Software Engineer with passion for Technology, Cloud and Building.{" "}
             <br />

@@ -73,7 +73,7 @@ const Navbar = () => {
             }}
           />
           {toggle && (
-            <div className="flex flex-col p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w[140px] z-10 rounded-md">
+            <div className="flex flex-col p-6 bg-blue-950 absolute top-20 right-0 mx-4 my-2 min-w[140px] z-10 rounded-md">
               <div className="flex flex-col justify-end items-start gap-4">
                 <Link
                   to="/"
