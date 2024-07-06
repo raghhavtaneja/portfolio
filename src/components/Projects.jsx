@@ -19,7 +19,6 @@ const ProjectCard = ({
     <div>
       <motion.div
         whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] min-h-[500px] max-h-[500px] w-full group"
       >
         <div className="relative w-full h-[230px]">
