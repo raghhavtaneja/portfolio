@@ -72,6 +72,11 @@ const technologies = [
         category: "frontend"
     },
     {
+        name: "Zustand",
+        icon: html,
+        category: "frontend"
+    },
+    {
         name: "Tailwind CSS",
         icon: tailwind,
         category: "frontend"
@@ -92,12 +97,22 @@ const technologies = [
         category: "backend"
     },
     {
+        name: "FastAPI",
+        icon: nodejs,
+        category: "backend"
+    },
+    {
         name: "MongoDB",
         icon: mongodb,
         category: "db"
     },
     {
         name: "MySQL",
+        icon: mongodb,
+        category: "db"
+    },
+    {
+        name: "Redis",
         icon: mongodb,
         category: "db"
     },
@@ -119,6 +134,11 @@ const technologies = [
     {
         name: "Python",
         icon: java,
+        category: "languages"
+    },
+    {
+        name: "JavaScript / TypeScript",
+        icon: cpp,
         category: "languages"
     },
     {

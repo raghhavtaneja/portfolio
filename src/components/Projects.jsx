@@ -17,7 +17,11 @@ const ProjectCard = ({
 }) => {
   return (
     <div>
-      <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+      <motion.div
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] min-h-[500px] max-h-[500px] w-full group"
+      >
         <div className="relative w-full h-[230px]">
           <img
             src={image}
@@ -29,7 +33,7 @@ const ProjectCard = ({
             {live_link && (
               <div
                 onClick={() => window.open(live_link, "_blank")}
-                className="bg-black w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                className="bg-black w-10 h-10 rounded-full flex justify-center items-center cursor-pointer group-hover:bg-[#711752]"
               >
                 <CiShare1 />
               </div>
@@ -37,7 +41,7 @@ const ProjectCard = ({
             {source_code_link && (
               <div
                 onClick={() => window.open(source_code_link, "_blank")}
-                className="bg-black w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                className="bg-black w-10 h-10 rounded-full flex justify-center items-center cursor-pointer group-hover:bg-[#1b6b5d]"
               >
                 <img
                   src={github}
@@ -64,7 +68,7 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

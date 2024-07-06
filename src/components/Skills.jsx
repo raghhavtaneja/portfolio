@@ -1,6 +1,8 @@
 import { technologies } from "../constants";
 import { styles } from "../styles";
 
+import { motion } from "framer-motion";
+
 const Skills = () => {
   return (
     <div id="skills" className="pt-24 pl-10 pr-10">
@@ -17,7 +19,11 @@ const Skills = () => {
 
       <div className="flex gap-2 flex-wrap justify-center">
         <div className="mt-10 flex gap-7 w-80">
-          <div className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-center">
+          <motion.div
+            whileHover={{ scale: 1.06 }}
+            whileTap={{ scale: 0.9 }}
+            className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-center"
+          >
             <p>Frontend</p>
             <div className="flex flex-wrap gap-5">
               {technologies
@@ -30,11 +36,15 @@ const Skills = () => {
                   </div>
                 ))}
             </div>
-          </div>
+          </motion.div>
         </div>
 
         <div className="mt-10 flex gap-7 w-80">
-          <div className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-start justify-start">
+          <motion.div
+            whileHover={{ scale: 1.06 }}
+            whileTap={{ scale: 0.9 }}
+            className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-start justify-start"
+          >
             <p>Backend</p>
             <div className="flex flex-wrap gap-5">
               {technologies
@@ -47,11 +57,15 @@ const Skills = () => {
                   </div>
                 ))}
             </div>
-          </div>
+          </motion.div>
         </div>
 
         <div className="mt-10 flex w-80">
-          <div className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-start justify-start">
+          <motion.div
+            whileHover={{ scale: 1.06 }}
+            whileTap={{ scale: 0.9 }}
+            className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-start justify-start"
+          >
             <p>Languages</p>
             <div className="flex flex-wrap gap-5">
               {technologies
@@ -64,11 +78,15 @@ const Skills = () => {
                   </div>
                 ))}
             </div>
-          </div>
+          </motion.div>
         </div>
 
         <div className="mt-10 flex w-80">
-          <div className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-start">
+          <motion.div
+            whileHover={{ scale: 1.06 }}
+            whileTap={{ scale: 0.9 }}
+            className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-start"
+          >
             <p>Database</p>
             <div className="flex flex-wrap gap-5">
               {technologies
@@ -81,11 +99,15 @@ const Skills = () => {
                   </div>
                 ))}
             </div>
-          </div>
+          </motion.div>
         </div>
 
         <div className="mt-10 flex gap-7 w-80">
-          <div className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-start">
+          <motion.div
+            whileHover={{ scale: 1.06 }}
+            whileTap={{ scale: 0.9 }}
+            className="bg-gray-900 gap-5 p-5 rounded-md flex flex-wrap items-start"
+          >
             <p>Devops</p>
             <div className="flex flex-wrap gap-5">
               {technologies
@@ -98,7 +120,7 @@ const Skills = () => {
                   </div>
                 ))}
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
