@@ -102,6 +102,11 @@ const technologies = [
         category: "backend"
     },
     {
+        name: "Langchain",
+        icon: nodejs,
+        category: "backend"
+    },
+    {
         name: "MongoDB",
         icon: mongodb,
         category: "db"
